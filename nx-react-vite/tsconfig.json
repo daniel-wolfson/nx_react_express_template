@@ -1,0 +1,37 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/api"
+    },
+    {
+      "path": "./apps/web-e2e"
+    },
+    {
+      "path": "./apps/web"
+    },
+    {
+      "path": "./libs/api/products"
+    },
+    {
+      "path": "./libs/shared/models"
+    },
+    {
+      "path": "./libs/web/data"
+    },
+    {
+      "path": "./libs/web/feature-product-detail"
+    },
+    {
+      "path": "./libs/web/feature-products"
+    },
+    {
+      "path": "./libs/web/shared-ui"
+    },
+    {
+      "path": "./libs/shared/test-utils"
+    }
+  ]
+}

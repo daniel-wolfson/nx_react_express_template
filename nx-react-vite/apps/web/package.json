@@ -1,0 +1,24 @@
+{
+  "name": "@org/web",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "projectType": "application",
+    "tags": ["scope:web"],
+    "targets": {
+      "serve": {
+        "dependsOn": ["@org/api:serve"]
+      },
+      "preview": {
+        "dependsOn": ["build", "@org/api:serve"]
+      }
+    }
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/web-data": "*",
+    "@org/web-feature-product-detail": "*",
+    "@org/web-feature-products": "*",
+    "@org/web-shared-ui": "*"
+  }
+}
